@@ -1,8 +1,8 @@
 import os
 
-GMAIL 			   = GMAIL
-SENDGRID_LOGIN     = SENDGRID_LOGIN
-SENDGRID_PASSWORD  = SENDGRID_PASSWORD
+GMAIL 			   = os.environ['GMAIL']
+SENDGRID_LOGIN     = os.environ['SENDGRID_LOGIN']
+SENDGRID_PASSWORD  = os.environ['SENDGRID_PASSWORD']
 
 CSRF_ENABLED = True
 SECRET_KEY = 'you-will-never-guess'
